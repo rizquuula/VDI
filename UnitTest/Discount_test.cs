@@ -14,7 +14,6 @@ public class TestDiscount
     public void Test_Anagram(string customerType, int point, int totalSpending, int discountTarget, int paidAmountTarget)
     {
         var disc = new Discount(customerType, point, totalSpending);
-        
         var discount = disc.SumDiscount();
         var paidAmount = disc.PaidAmount();
         
